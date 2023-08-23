@@ -25,7 +25,7 @@ body {
 .component-container {
     background: var(--White);
     width: 90%;
-    max-height: 524px;
+    height: 524px;
     margin: 20% auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -83,7 +83,7 @@ body {
     .component-container {
         margin: 5rem auto;
         width: 350px;
-        max-height: 524px;
+        height: 525px;
 
     }
 
