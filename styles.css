@@ -25,7 +25,7 @@ body {
 .component-container {
     background: var(--White);
     width: 90%;
-    height: 80vh;
+    height: 600px;
     margin: 20% auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -53,7 +53,7 @@ body {
 }
 
 .text-area h1 {
-    font-size: 1.4rem;
+    font-size: 1rem;
     justify-self: top;
     color: var(--Dark-blue);
     padding: 0 7%;
