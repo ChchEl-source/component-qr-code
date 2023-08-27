@@ -13,20 +13,20 @@
     box-sizing: border-box;
 }
 
-html{
+html, body{
+    height: 100%;
     min-height: 100%;
     width: 100%;
-}
-
-body {
-   
- font-family: 'Outfit', sans-serif;
-    font-size: 15px;
     background-color: var(--Light-gray);
+    overflow-y: hidden;
 
 }
+
+
 
 .component-container {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
     background: var(--White);
     width: 90%;
     height: 500px;
@@ -79,7 +79,6 @@ body {
 }
 
 @media screen and (min-width: 376px) {
-
 
 
     .component-container {
