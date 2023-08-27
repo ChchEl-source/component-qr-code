@@ -13,9 +13,13 @@
     box-sizing: border-box;
 }
 
+html{
+    min-height: 100%;
+    width: 100%;
+}
+
 body {
-    min-width: 100%;
-min-height: 100%;   
+   
  font-family: 'Outfit', sans-serif;
     font-size: 15px;
     background-color: var(--Light-gray);
@@ -79,6 +83,7 @@ min-height: 100%;
 
 
     .component-container {
+        margin: 10% auto;
     grid-template-rows: 2fr 1fr;
     padding: 10px 0;
     max-width: 340px;
